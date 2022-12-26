@@ -79,3 +79,19 @@ num = 0
 for num in list1:
     if num % 2 == 0:
         print(num, end=" ")
+
+
+#User-defined Functions 
+
+def My_func ():
+    print("Hello World!") 
+My_func()    
+
+# Parameters 
+
+def Hello (name):
+    print("Hello " + name )
+
+Hello("mido ")
+ 
+ 
