@@ -94,4 +94,19 @@ def Hello (name):
 
 Hello("mido ")
  
- 
+ #Return
+def Add (x,y) :
+    return x + y 
+print(Add(4,7))
+
+
+#functions 
+#takes 2 num and return the sum if them and the diffrence 
+
+
+
+def My_func(a,b):
+    print(max(a,b))
+    print(max(a,b)-min(a,b))
+
+My_func(5,8)
