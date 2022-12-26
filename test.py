@@ -116,3 +116,17 @@ My_func(5,8)
 #for i in range(10000):
     #print(list1)
 
+# 2 sum 
+
+def twoSum(nums, target):
+    complements = {}
+    for i in range(len(nums)):
+        if nums[i] in complements:
+            return [i,complements[nums[i]]]
+        else:
+            complements[target - nums[i]] = i
+print(twoSum([2,11,15,3],14))
+
+
+
+            
