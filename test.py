@@ -110,3 +110,9 @@ def My_func(a,b):
     print(max(a,b)-min(a,b))
 
 My_func(5,8)
+
+
+#list1 = [10, 24, 4, 45, 66, 93]
+#for i in range(10000):
+    #print(list1)
+
