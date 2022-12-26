@@ -39,3 +39,17 @@ if "Mido" in Names:
     print("Mido Found!")
 else: 
     print("Not Found!")
+
+#test
+
+X = 50
+Array =[30,64,77,81]
+
+if 77 in Array :
+    print ("Yes")
+
+if X > 77 :
+    print("Yes")
+
+else :
+    print("No")
