@@ -53,3 +53,10 @@ if X > 77 :
 
 else :
     print("No")
+
+
+#LOOPS
+
+list_names= ["Mido", "Ryan", "Khalil", "Emily", "Amira", "Athar"]
+for x in list_names:
+    print(x)
