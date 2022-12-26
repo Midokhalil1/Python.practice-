@@ -23,5 +23,19 @@ else :
     print("No")
 
 
+ #identity operator 
  
+if A is B :
+    print("Yes")
+else : 
+    print("No")
 
+
+
+#membership operator 
+
+Names = ["Mido","Ryan","Emily"]
+if "Mido" in Names:
+    print("Mido Found!")
+else: 
+    print("Not Found!")
