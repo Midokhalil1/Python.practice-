@@ -1,3 +1,7 @@
 #Python Essential Traning Course 
+import sys
+from termcolor import colored, cprint
 
-print('hello, world')
+text = colored ('hello, world', 'white', attrs=['reverse', 'blink'])
+print(text)
+cprint('Hello, Mido!', 'green', 'on_green')
