@@ -127,6 +127,30 @@ def twoSum(nums, target):
             complements[target - nums[i]] = i
 print(twoSum([2,11,15,3],14))
 
+#2num
 
+class Solution(object):
+    def twoSum(self, nums, target):
 
+        hashmap = {}
+        for i in range(len(nums)):
+            if nums[i] not in hashmap:
+                hashmap[target - nums[i]] = i 
+            else:
+                return hashmap[nums[i]], i 
             
+            
+ #fizzBuzz 
+ 
+for n in range(1, 101):
+    if n % 15 == 0:
+         print('FizzBuzz')
+    elif n % 3 == 0:
+        print('Fizz')
+    elif n % 5 == 0:
+         print('Buzz')
+    else:
+        print(n)           
+         
+               
+
