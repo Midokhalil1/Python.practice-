@@ -153,4 +153,55 @@ for n in range(1, 101):
         print(n)           
          
                
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+#list = [2, 7, 15, 16]      Target = 9 
+
+#return an array with the index of the two numbers who's sum equals the target
+
+def twoSum(nums, target):
+    hashmap = {}       #store the value # intionlizing the hashmap so i can use it later 
+    for i in range(len(nums)):    #creating a seqnce of numbers from 0 up to the length of list
+        if nums[i] not in hashmap: # if value (nums) not in the hashmap 
+            hashmap[target-nums[i]] = i    #making an entry to the hashmap so the value be 7 
+        else: 
+            return [
+                hashmap[ nums[i] ],     # gets the index from the hashmap
+                i                       # index of current number
+            ]
+        
+# hashmap = {   7 : 0   }  9 (target) - 2  (value on first loop) = 7, this was at index 0
+# hashmap = {   2: 1    }  9 (target) - 7 (value on second loop) = 2, this is at index 1
+            
+            
+        
+
+      
+      
+    
+
+
+          
 
