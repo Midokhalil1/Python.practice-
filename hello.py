@@ -6,7 +6,7 @@ text = colored ('hello, world', 'white', attrs=['reverse', 'blink'])
 print(text)
 cprint('Hello, Mido!😃', 'magenta', 'on_green')
 for i in range (1):
-    cprint (i, 'green', end=' ')
+    cprint (i, 'yellow', end=' ')
 
 print(colored('😃RAINBOW😃', 'red')) 
 print(colored('😃RAINBOW😃', 'yellow'))
