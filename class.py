@@ -6,7 +6,7 @@ class Dog:
     def speak(self):
         print(self.name +  " says: Bark")    
 
-my_dog = Dog( "Rover")
+my_dog = Dog( "Rover]]")
 another_dog = Dog( "Fluffy")
 
 my_dog.speak()
