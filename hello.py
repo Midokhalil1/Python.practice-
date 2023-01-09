@@ -11,6 +11,6 @@ for i in range (1):
 print(colored('😃RAINBOW😃', 'red')) 
 print(colored('😃RAINBOW😃', 'yellow'))
 print(colored('😃RAINBOW😃', 'green'))   
-print(colored('😃RAINBOW😃', 'cyan'))   
+print(colored('😃RAINBOW😃', 'orange'))   
 print(colored('😃RAINBOW😃', 'blue')) 
 print(colored('😀RAINBOW😀', 'magenta')) 
